@@ -1,7 +1,4 @@
 # Terceiro Trimestre
+Glawber - Nr. 11
 
-## Identificação
-Jesus Maringá - Nr. 50
 
-## Conteúdo
-HTML, CSS e javascript
