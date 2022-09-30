@@ -1,2 +1,7 @@
-# primeirod_3t
-Glawber Nr.11 Turma:1D
+# Terceiro Trimestre
+
+## Identificação
+Jesus Maringá - Nr. 50
+
+## Conteúdo
+HTML, CSS e javascript
