@@ -1,49 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
-#calculadora {
-    background: rgb(77, 216, 77);
-    width: 200px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-}
-#calculadora input {
-    background: rgb(54, 236, 124);
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    border-radius: 5px;
-}
-#sptotal {
-    background: rgba(228, 125, 125, 0.767);
-    color: rgb(0, 255, 85);
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#calculadora button {
-    background: rgb(6, 141, 17);
-    color: rgb(255, 255, 255);
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-#calculadora button:hover{
-    background: rgb(236, 222, 212);
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
- h3 {
-     color:brown;
- }
- .calcF{
-  display: none;
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Primeiro D</title>
+   <script src="estudo.js"></script>
+   <link rel="stylesheet" href="geral.css">
+</head>
 
- }
+<body>
+   <input type="checkbox" id ="input-calcF">
 
- #input-calcF{
-    display: none;
+   <div id="calculadora">
+      <label for="input-calcF">
+           <h3> Financeira </h3>
+      </label>
+      <div class="calcF"> 
 
-}
-#input-calcF:checked + #calculadora .calcF {
-    display:block;
-}
+
+      <div id="sptotal">
+      <span id="total"> Total: 0,00</span>
+   </div>
+      Capital: <input id="valor" type="text"> <br>
+      Juros Mensais: <input id="juros" type="text"> <br>
+      Nr. de Meses: <input id="meses" type="text"> <br>
+      <button onclick="total()">Calcula</button>
+      <div class="spMes">
+         <span id="mes">Meses</span>
+      </div>
+   </div>
+</div>
+
+<input type="checkbox" id ="input-calcESqC">
+<div id="calculadoraESC">
+   <label for="input-calcEqSG">
+        <h3> Equação <br> Segundo Grau </h3>
+   </label>
+   <div class="calcES"> 
+
+
+   <div id="spRaiz">
+   <span id="raiz"> X1 e X2 </span>
+</div>
+    <input id="a" placeholder="a" type="text"> <br>
+    <input id="b" placeholder="b" type="text"> <br>
+    <input id="c" placeholder="c" type="text"> <br>
+   <button onclick="calculaRaiz()">Calcula</button>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
